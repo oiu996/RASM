@@ -122,7 +122,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 try:
-    from huggingface_hub import HfApi, snapshot_download, HfFolder
+    from huggingface_hub import HfApi, snapshot_download
 except ImportError:
     print("ERROR: huggingface_hub not installed. Run: pip install huggingface_hub")
     sys.exit(1)
@@ -150,6 +150,21 @@ try:
     os.environ.setdefault("HF_HUB_ENABLE_HF_TRANSFER", "1")
 except ImportError:
     pass
+
+
+def _get_cached_token():
+    """Read the token stored by `hf auth login` / huggingface-cli login."""
+    for path in (
+        os.path.expanduser("~/.cache/huggingface/token"),
+        os.path.expanduser("~/.huggingface/token"),
+    ):
+        if os.path.isfile(path):
+            try:
+                with open(path, "r") as _fh:
+                    return _fh.read().strip()
+            except OSError:
+                pass
+    return None
 
 
 def _should_skip_file(name):
@@ -241,7 +256,7 @@ def _push_dir(api, top_level_dir, token, max_workers=4, retries=2, suffix_filter
 
 
 def push(token, workers=4):
-    token = token or os.environ.get("HF_TOKEN") or HfFolder.get_token()
+    token = token or os.environ.get("HF_TOKEN") or _get_cached_token()
     if not token:
         print("ERROR: no HF token. Use --token, set HF_TOKEN, or run `hf auth login`.")
         sys.exit(1)
@@ -276,7 +291,7 @@ def push(token, workers=4):
 
 
 def pull(token):
-    token = token or os.environ.get("HF_TOKEN") or HfFolder.get_token()
+    token = token or os.environ.get("HF_TOKEN") or _get_cached_token()
     if not token:
         print("ERROR: no HF token. Use --token, set HF_TOKEN, or run `hf auth login`.")
         sys.exit(1)
