@@ -1,0 +1,30 @@
+# ===== Large assets externalized to HuggingFace (see hf_sync.py) =====
+# Full datasets (4.8G, includes a 2.0G zip)
+datasets/
+# Model checkpoints / training logs (750M of .pth)
+log/
+# TensorBoard / run logs
+runs/
+# Result images (result comparisons, ~0.7G + showcase 148M)
+results_istd/
+results_srd/
+results_istd_on_srd/
+results_srd_on_istd/
+showcase/
+# Raw weights / archives
+*.pth
+*.zip
+
+# ===== Keep these =====
+# results_academic/ (paper tables, csv, tex) is intentionally tracked
+!results_academic/
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ===== OS / editor =====
+.DS_Store
+Thumbs.db
+*.swp
