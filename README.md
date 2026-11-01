@@ -147,7 +147,7 @@ NOT stored in git**. Only source code and documents are tracked here.
 | Asset | Location |
 |-------|----------|
 | Source code, scripts, docs, `fig/`, `datasets_small/`, `results_academic/` | **this git repo** |
-| Full `datasets/` (ISTD+, SRD), model weights `log/`, runs, `results_*`, `showcase/` | **HuggingFace Dataset [`oiu996/rasm-data`](https://huggingface.co/datasets/oiu996/rasm-data)** |
+| Full `datasets/` (ISTD+, SRD), model weights `log/`, runs, `results_*`, `showcase/` | **HuggingFace Dataset [`oiuuu/rasm-data`](https://huggingface.co/datasets/oiuuu/rasm-data)** |
 
 ### 1. Get the code (GitHub)
 

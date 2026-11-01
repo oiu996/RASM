@@ -30,7 +30,7 @@ except ImportError:
     print("ERROR: huggingface_hub not installed. Run: pip install huggingface_hub")
     sys.exit(1)
 
-REPO_ID = "oiu996/rasm-data"
+REPO_ID = "oiuuu/rasm-data"
 REPO_TYPE = "dataset"
 
 # Folders that are externalized (kept out of git, stored on HuggingFace).
