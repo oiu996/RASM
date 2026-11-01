@@ -1,0 +1,147 @@
+{
+  "data_root": "datasets/SRD_ABC/test",
+  "num": 10,
+  "seed": 0,
+  "samples": [
+    {
+      "id": "01",
+      "stem": "01_IMG_1_5476",
+      "key": "IMG_1_5476",
+      "shadow_ratio": 0.0302,
+      "A": "showcase/samples/A_input/01_IMG_1_5476.jpg",
+      "B": "showcase/samples/B_mask/01_IMG_1_5476.jpg",
+      "C": "showcase/samples/C_gt/01_IMG_1_5476.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/IMG_1_5476.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/IMG_1_5476.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/IMG_1_5476_free.jpg"
+      }
+    },
+    {
+      "id": "02",
+      "stem": "02__MG_2439",
+      "key": "_MG_2439",
+      "shadow_ratio": 0.0612,
+      "A": "showcase/samples/A_input/02__MG_2439.jpg",
+      "B": "showcase/samples/B_mask/02__MG_2439.jpg",
+      "C": "showcase/samples/C_gt/02__MG_2439.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/_MG_2439.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/_MG_2439.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/_MG_2439_free.jpg"
+      }
+    },
+    {
+      "id": "03",
+      "stem": "03_IMG_6563",
+      "key": "IMG_6563",
+      "shadow_ratio": 0.0792,
+      "A": "showcase/samples/A_input/03_IMG_6563.jpg",
+      "B": "showcase/samples/B_mask/03_IMG_6563.jpg",
+      "C": "showcase/samples/C_gt/03_IMG_6563.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/IMG_6563.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/IMG_6563.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/IMG_6563_free.jpg"
+      }
+    },
+    {
+      "id": "04",
+      "stem": "04_IMG_2454",
+      "key": "IMG_2454",
+      "shadow_ratio": 0.1096,
+      "A": "showcase/samples/A_input/04_IMG_2454.jpg",
+      "B": "showcase/samples/B_mask/04_IMG_2454.jpg",
+      "C": "showcase/samples/C_gt/04_IMG_2454.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/IMG_2454.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/IMG_2454.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/IMG_2454_free.jpg"
+      }
+    },
+    {
+      "id": "05",
+      "stem": "05__MG_2442",
+      "key": "_MG_2442",
+      "shadow_ratio": 0.137,
+      "A": "showcase/samples/A_input/05__MG_2442.jpg",
+      "B": "showcase/samples/B_mask/05__MG_2442.jpg",
+      "C": "showcase/samples/C_gt/05__MG_2442.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/_MG_2442.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/_MG_2442.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/_MG_2442_free.jpg"
+      }
+    },
+    {
+      "id": "06",
+      "stem": "06_IMG_2430",
+      "key": "IMG_2430",
+      "shadow_ratio": 0.169,
+      "A": "showcase/samples/A_input/06_IMG_2430.jpg",
+      "B": "showcase/samples/B_mask/06_IMG_2430.jpg",
+      "C": "showcase/samples/C_gt/06_IMG_2430.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/IMG_2430.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/IMG_2430.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/IMG_2430_free.jpg"
+      }
+    },
+    {
+      "id": "07",
+      "stem": "07__MG_5599-JPG",
+      "key": "_MG_5599.JPG",
+      "shadow_ratio": 0.2156,
+      "A": "showcase/samples/A_input/07__MG_5599-JPG.jpg",
+      "B": "showcase/samples/B_mask/07__MG_5599-JPG.jpg",
+      "C": "showcase/samples/C_gt/07__MG_5599-JPG.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/_MG_5599.JPG.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/_MG_5599.JPG.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/_MG_5599.JPG_free.jpg"
+      }
+    },
+    {
+      "id": "08",
+      "stem": "08__MG_3048",
+      "key": "_MG_3048",
+      "shadow_ratio": 0.2654,
+      "A": "showcase/samples/A_input/08__MG_3048.jpg",
+      "B": "showcase/samples/B_mask/08__MG_3048.jpg",
+      "C": "showcase/samples/C_gt/08__MG_3048.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/_MG_3048.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/_MG_3048.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/_MG_3048_free.jpg"
+      }
+    },
+    {
+      "id": "09",
+      "stem": "09_IMG_6591",
+      "key": "IMG_6591",
+      "shadow_ratio": 0.3086,
+      "A": "showcase/samples/A_input/09_IMG_6591.jpg",
+      "B": "showcase/samples/B_mask/09_IMG_6591.jpg",
+      "C": "showcase/samples/C_gt/09_IMG_6591.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/IMG_6591.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/IMG_6591.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/IMG_6591_free.jpg"
+      }
+    },
+    {
+      "id": "10",
+      "stem": "10_IMG_6900",
+      "key": "IMG_6900",
+      "shadow_ratio": 0.3572,
+      "A": "showcase/samples/A_input/10_IMG_6900.jpg",
+      "B": "showcase/samples/B_mask/10_IMG_6900.jpg",
+      "C": "showcase/samples/C_gt/10_IMG_6900.jpg",
+      "src": {
+        "A": "datasets/SRD_ABC/test/test_A/IMG_6900.jpg",
+        "B": "datasets/SRD_ABC/test/test_B/IMG_6900.jpg",
+        "C": "datasets/SRD_ABC/test/test_C/IMG_6900_free.jpg"
+      }
+    }
+  ]
+}

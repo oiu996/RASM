@@ -1,0 +1,20 @@
+Disabling PyTorch because PyTorch >= 2.4 is required but found 2.1.0+cu118
+PyTorch was not found. Models won't be available and only tokenizers, configuration and file/data utilities can be used.
+/root/.pyenv/versions/3.11.1/lib/python3.11/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+# model_restoration parameters: 5.18 M
+weight format: th
+===>Testing using weights:  ./log/RASM_srd_demo/models/SRD.pth
+  0%|          | 0/10 [00:00<?, ?it/s][ WARN:0@6.248] global loadsave.cpp:1089 imwrite_ Unsupported depth image for selected encoder is fallbacked to CV_8U.
+ 10%|█         | 1/10 [00:01<00:10,  1.15s/it] 20%|██        | 2/10 [00:01<00:06,  1.30it/s] 30%|███       | 3/10 [00:02<00:04,  1.54it/s] 40%|████      | 4/10 [00:02<00:03,  1.70it/s] 50%|█████     | 5/10 [00:03<00:02,  1.80it/s] 60%|██████    | 6/10 [00:03<00:02,  1.85it/s] 70%|███████   | 7/10 [00:04<00:01,  1.90it/s] 80%|████████  | 8/10 [00:04<00:01,  1.94it/s] 90%|█████████ | 9/10 [00:05<00:00,  1.96it/s]100%|██████████| 10/10 [00:05<00:00,  1.97it/s]100%|██████████| 10/10 [00:05<00:00,  1.76it/s]
+## RASM_srd_demo
+
+PSNR: 29.974674, SSIM: 0.000000, RMSE: 3.825197 
+
+SPSNR: 33.119338, SSSIM: 0.000000, SRMSE: 6.309570 
+
+NSPSNR: 33.154171, NSSSIM: 0.000000, NSRMSE: 3.263472 
+
+|RASM_srd_demo|29.974674|3.825197|33.119338|6.309570|33.154171|3.263472|
+
+==> Metrics saved to:  /workspace/RASM/results_srd/metrics.jsonl

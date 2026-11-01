@@ -5,19 +5,13 @@ datasets/
 log/
 # TensorBoard / run logs
 runs/
-# Result images (result comparisons, ~0.7G + showcase 148M)
-results_istd/
-results_srd/
-results_istd_on_srd/
-results_srd_on_istd/
-showcase/
-# Raw weights / archives
+# Raw weights / archives (still externalized to HuggingFace)
 *.pth
 *.zip
 
-# ===== Keep these =====
-# results_academic/ (paper tables, csv, tex) is intentionally tracked
-!results_academic/
+# ===== The following are tracked in git (GitHub), not externalized =====
+# results_istd/ results_srd/ results_istd_on_srd/ results_srd_on_istd/ showcase/
+# results_academic/ (paper tables, csv, tex) also tracked
 
 # ===== Python =====
 __pycache__/

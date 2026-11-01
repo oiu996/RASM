@@ -146,8 +146,8 @@ NOT stored in git**. Only source code and documents are tracked here.
 
 | Asset | Location |
 |-------|----------|
-| Source code, scripts, docs, `fig/`, `datasets_small/`, `results_academic/` | **this git repo** |
-| Full `datasets/` (ISTD+, SRD), model weights `log/`, runs, `results_*`, `showcase/` | **HuggingFace Dataset [`oiuuu/rasm-data`](https://huggingface.co/datasets/oiuuu/rasm-data)** |
+| Source code, scripts, docs, `fig/`, `datasets_small/`, `results_academic/`, `results_istd/`, `results_srd/`, `results_istd_on_srd/`, `results_srd_on_istd/`, `showcase/` | **this git repo** |
+| Full `datasets/` (ISTD+, SRD), model weights `log/`, runs | **HuggingFace Dataset [`oiuuu/rasm-data`](https://huggingface.co/datasets/oiuuu/rasm-data)** |
 
 ### 1. Get the code (GitHub)
 
@@ -158,7 +158,7 @@ cd RASM
 
 ### 2. Get the large assets (HuggingFace)
 
-Install the helper and download datasets / weights / results:
+Install the helper and download datasets / weights / run logs:
 
 ```bash
 pip install huggingface_hub

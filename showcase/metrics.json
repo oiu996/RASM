@@ -1,0 +1,262 @@
+{
+  "samples": {
+    "01_IMG_1_5476": {
+      "id": "01",
+      "key": "IMG_1_5476",
+      "shadow_ratio": 0.0302,
+      "srd": {
+        "psnr": 30.4715,
+        "psnr_s": 43.7673,
+        "psnr_ns": 30.6798,
+        "rmse": 4.1995,
+        "rmse_s": 6.9344,
+        "rmse_ns": 4.1145,
+        "seconds": 1.27
+      },
+      "istd": {
+        "psnr": 18.6975,
+        "psnr_s": 34.3177,
+        "psnr_ns": 18.8182,
+        "rmse": 11.2994,
+        "rmse_s": 20.6477,
+        "rmse_ns": 11.0087,
+        "seconds": 0.61
+      }
+    },
+    "02__MG_2439": {
+      "id": "02",
+      "key": "_MG_2439",
+      "shadow_ratio": 0.0612,
+      "srd": {
+        "psnr": 30.6252,
+        "psnr_s": 36.6617,
+        "psnr_ns": 31.8693,
+        "rmse": 3.6568,
+        "rmse_s": 7.4161,
+        "rmse_ns": 3.4115,
+        "seconds": 0.63
+      },
+      "istd": {
+        "psnr": 29.1285,
+        "psnr_s": 34.5389,
+        "psnr_ns": 30.602,
+        "rmse": 4.2238,
+        "rmse_s": 9.854,
+        "rmse_ns": 3.8565,
+        "seconds": 0.61
+      }
+    },
+    "03_IMG_6563": {
+      "id": "03",
+      "key": "IMG_6563",
+      "shadow_ratio": 0.0792,
+      "srd": {
+        "psnr": 34.259,
+        "psnr_s": 40.527,
+        "psnr_ns": 35.4289,
+        "rmse": 3.3029,
+        "rmse_s": 5.4465,
+        "rmse_ns": 3.1185,
+        "seconds": 0.61
+      },
+      "istd": {
+        "psnr": 25.7875,
+        "psnr_s": 27.7205,
+        "psnr_ns": 30.2339,
+        "rmse": 5.4192,
+        "rmse_s": 18.0784,
+        "rmse_ns": 4.3302,
+        "seconds": 0.61
+      }
+    },
+    "04_IMG_2454": {
+      "id": "04",
+      "key": "IMG_2454",
+      "shadow_ratio": 0.1096,
+      "srd": {
+        "psnr": 26.9822,
+        "psnr_s": 33.4904,
+        "psnr_ns": 28.0805,
+        "rmse": 6.2356,
+        "rmse_s": 9.952,
+        "rmse_ns": 5.7784,
+        "seconds": 0.61
+      },
+      "istd": {
+        "psnr": 24.1776,
+        "psnr_s": 29.0196,
+        "psnr_ns": 25.9035,
+        "rmse": 7.7668,
+        "rmse_s": 15.1332,
+        "rmse_ns": 6.8604,
+        "seconds": 0.62
+      }
+    },
+    "05__MG_2442": {
+      "id": "05",
+      "key": "_MG_2442",
+      "shadow_ratio": 0.137,
+      "srd": {
+        "psnr": 31.0682,
+        "psnr_s": 36.1,
+        "psnr_ns": 32.7045,
+        "rmse": 3.275,
+        "rmse_s": 5.1748,
+        "rmse_ns": 2.9733,
+        "seconds": 0.61
+      },
+      "istd": {
+        "psnr": 26.929,
+        "psnr_s": 30.7212,
+        "psnr_ns": 29.277,
+        "rmse": 4.5595,
+        "rmse_s": 8.5554,
+        "rmse_ns": 3.9249,
+        "seconds": 0.61
+      }
+    },
+    "06_IMG_2430": {
+      "id": "06",
+      "key": "IMG_2430",
+      "shadow_ratio": 0.169,
+      "srd": {
+        "psnr": 30.5377,
+        "psnr_s": 35.314,
+        "psnr_ns": 32.296,
+        "rmse": 3.93,
+        "rmse_s": 6.1769,
+        "rmse_ns": 3.4732,
+        "seconds": 0.61
+      },
+      "istd": {
+        "psnr": 27.7253,
+        "psnr_s": 31.1327,
+        "psnr_ns": 30.3718,
+        "rmse": 5.098,
+        "rmse_s": 9.858,
+        "rmse_ns": 4.1301,
+        "seconds": 0.62
+      }
+    },
+    "07__MG_5599-JPG": {
+      "id": "07",
+      "key": "_MG_5599.JPG",
+      "shadow_ratio": 0.2156,
+      "srd": {
+        "psnr": 29.6831,
+        "psnr_s": 33.902,
+        "psnr_ns": 31.749,
+        "rmse": 3.9215,
+        "rmse_s": 4.8843,
+        "rmse_ns": 3.6568,
+        "seconds": 0.61
+      },
+      "istd": {
+        "psnr": 27.1384,
+        "psnr_s": 31.5483,
+        "psnr_ns": 29.0919,
+        "rmse": 4.7758,
+        "rmse_s": 6.3589,
+        "rmse_ns": 4.3407,
+        "seconds": 0.62
+      }
+    },
+    "08__MG_3048": {
+      "id": "08",
+      "key": "_MG_3048",
+      "shadow_ratio": 0.2654,
+      "srd": {
+        "psnr": 33.3607,
+        "psnr_s": 34.07,
+        "psnr_ns": 41.5805,
+        "rmse": 2.7864,
+        "rmse_s": 6.1103,
+        "rmse_ns": 1.5858,
+        "seconds": 0.61
+      },
+      "istd": {
+        "psnr": 25.6844,
+        "psnr_s": 26.0696,
+        "psnr_ns": 36.3963,
+        "rmse": 5.2639,
+        "rmse_s": 14.5751,
+        "rmse_ns": 1.9005,
+        "seconds": 0.61
+      }
+    },
+    "09_IMG_6591": {
+      "id": "09",
+      "key": "IMG_6591",
+      "shadow_ratio": 0.3086,
+      "srd": {
+        "psnr": 29.7711,
+        "psnr_s": 31.4282,
+        "psnr_ns": 34.7577,
+        "rmse": 4.611,
+        "rmse_s": 6.7598,
+        "rmse_ns": 3.6518,
+        "seconds": 0.61
+      },
+      "istd": {
+        "psnr": 20.9503,
+        "psnr_s": 22.7248,
+        "psnr_ns": 25.6945,
+        "rmse": 10.7179,
+        "rmse_s": 17.1744,
+        "rmse_ns": 7.8356,
+        "seconds": 0.62
+      }
+    },
+    "10_IMG_6900": {
+      "id": "10",
+      "key": "IMG_6900",
+      "shadow_ratio": 0.3572,
+      "srd": {
+        "psnr": 31.9606,
+        "psnr_s": 36.0008,
+        "psnr_ns": 34.139,
+        "rmse": 4.4795,
+        "rmse_s": 4.4116,
+        "rmse_ns": 4.5172,
+        "seconds": 0.61
+      },
+      "istd": {
+        "psnr": 19.8143,
+        "psnr_s": 22.1023,
+        "psnr_ns": 23.6914,
+        "rmse": 11.0011,
+        "rmse_s": 16.1487,
+        "rmse_ns": 8.1403,
+        "seconds": 0.61
+      }
+    }
+  },
+  "weights": {
+    "srd": "/workspace/RASM/log/RASM_srd_demo/models/SRD.pth",
+    "istd": "/workspace/RASM/log/RASM_istd_demo/models/AISTD.pth"
+  },
+  "weight_names": [
+    "srd",
+    "istd"
+  ],
+  "summary": {
+    "srd": {
+      "psnr": 30.8719,
+      "psnr_s": 36.1261,
+      "psnr_ns": 33.3285,
+      "rmse": 4.0398,
+      "rmse_s": 6.3267,
+      "rmse_ns": 3.6281,
+      "seconds_per_image": 0.68
+    },
+    "istd": {
+      "psnr": 24.6033,
+      "psnr_s": 28.9896,
+      "psnr_ns": 28.008,
+      "rmse": 7.0125,
+      "rmse_s": 13.6384,
+      "rmse_ns": 5.6328,
+      "seconds_per_image": 0.61
+    }
+  }
+}

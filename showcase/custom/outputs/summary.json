@@ -1,0 +1,198 @@
+{
+  "mask_sources": [
+    "ORIGIN",
+    "DHAN",
+    "UNION"
+  ],
+  "weights": {
+    "srd": "/workspace/RASM/log/RASM_srd_demo/models/SRD.pth",
+    "istd": "/workspace/RASM/log/RASM_istd_demo/models/AISTD.pth"
+  },
+  "samples": [
+    {
+      "stem": "0451",
+      "file": "0451.jpg",
+      "ORIGIN": {
+        "mask_src": "auto",
+        "weights": {
+          "srd": {
+            "seconds": 0.61
+          },
+          "istd": {
+            "seconds": 0.39
+          }
+        }
+      },
+      "DHAN": {
+        "mask_src": "dhan",
+        "weights": {
+          "srd": {
+            "seconds": 0.39
+          },
+          "istd": {
+            "seconds": 0.39
+          }
+        }
+      },
+      "UNION": {
+        "mask_src": "union",
+        "weights": {
+          "srd": {
+            "seconds": 0.39
+          },
+          "istd": {
+            "seconds": 0.4
+          }
+        }
+      }
+    },
+    {
+      "stem": "0452",
+      "file": "0452.jpg",
+      "ORIGIN": {
+        "mask_src": "auto",
+        "weights": {
+          "srd": {
+            "seconds": 1.2
+          },
+          "istd": {
+            "seconds": 1.2
+          }
+        }
+      },
+      "DHAN": {
+        "mask_src": "dhan",
+        "weights": {
+          "srd": {
+            "seconds": 1.21
+          },
+          "istd": {
+            "seconds": 1.22
+          }
+        }
+      },
+      "UNION": {
+        "mask_src": "union",
+        "weights": {
+          "srd": {
+            "seconds": 1.23
+          },
+          "istd": {
+            "seconds": 1.23
+          }
+        }
+      }
+    },
+    {
+      "stem": "0453",
+      "file": "0453.jpg",
+      "ORIGIN": {
+        "mask_src": "auto",
+        "weights": {
+          "srd": {
+            "seconds": 6.03
+          },
+          "istd": {
+            "seconds": 6.09
+          }
+        }
+      },
+      "DHAN": {
+        "mask_src": "dhan",
+        "weights": {
+          "srd": {
+            "seconds": 6.12
+          },
+          "istd": {
+            "seconds": 6.14
+          }
+        }
+      },
+      "UNION": {
+        "mask_src": "union",
+        "weights": {
+          "srd": {
+            "seconds": 6.18
+          },
+          "istd": {
+            "seconds": 6.2
+          }
+        }
+      }
+    },
+    {
+      "stem": "web_01",
+      "file": "web_01.jpg",
+      "ORIGIN": {
+        "mask_src": "auto",
+        "weights": {
+          "srd": {
+            "seconds": 0.39
+          },
+          "istd": {
+            "seconds": 0.39
+          }
+        }
+      },
+      "DHAN": {
+        "mask_src": "dhan",
+        "weights": {
+          "srd": {
+            "seconds": 0.4
+          },
+          "istd": {
+            "seconds": 0.4
+          }
+        }
+      },
+      "UNION": {
+        "mask_src": "union",
+        "weights": {
+          "srd": {
+            "seconds": 0.4
+          },
+          "istd": {
+            "seconds": 0.4
+          }
+        }
+      }
+    },
+    {
+      "stem": "web_02",
+      "file": "web_02.jpg",
+      "ORIGIN": {
+        "mask_src": "auto",
+        "weights": {
+          "srd": {
+            "seconds": 0.81
+          },
+          "istd": {
+            "seconds": 0.81
+          }
+        }
+      },
+      "DHAN": {
+        "mask_src": "dhan",
+        "weights": {
+          "srd": {
+            "seconds": 0.82
+          },
+          "istd": {
+            "seconds": 0.82
+          }
+        }
+      },
+      "UNION": {
+        "mask_src": "union",
+        "weights": {
+          "srd": {
+            "seconds": 0.82
+          },
+          "istd": {
+            "seconds": 0.83
+          }
+        }
+      }
+    }
+  ]
+}

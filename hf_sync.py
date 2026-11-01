@@ -34,15 +34,12 @@ REPO_ID = "oiuuu/rasm-data"
 REPO_TYPE = "dataset"
 
 # Folders that are externalized (kept out of git, stored on HuggingFace).
+# Note: result images (results_*) and showcase/ are now tracked in git,
+# so only raw datasets / weights / run logs remain here.
 LOCAL_DIRS = [
     "datasets",
     "log",
     "runs",
-    "results_istd",
-    "results_srd",
-    "results_istd_on_srd",
-    "results_srd_on_istd",
-    "showcase",
 ]
 
 
@@ -78,11 +75,6 @@ def pull(token):
             "datasets/**",
             "log/**",
             "runs/**",
-            "results_istd/**",
-            "results_srd/**",
-            "results_istd_on_srd/**",
-            "results_srd_on_istd/**",
-            "showcase/**",
         ],
     )
 
