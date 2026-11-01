@@ -122,7 +122,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 try:
-    from huggingface_hub import HfApi, snapshot_download
+    from huggingface_hub import HfApi, snapshot_download, HfFolder
 except ImportError:
     print("ERROR: huggingface_hub not installed. Run: pip install huggingface_hub")
     sys.exit(1)
@@ -241,9 +241,9 @@ def _push_dir(api, top_level_dir, token, max_workers=4, retries=2, suffix_filter
 
 
 def push(token, workers=4):
-    token = token or os.environ.get("HF_TOKEN")
+    token = token or os.environ.get("HF_TOKEN") or HfFolder.get_token()
     if not token:
-        print("ERROR: no HF token. Use --token or set HF_TOKEN.")
+        print("ERROR: no HF token. Use --token, set HF_TOKEN, or run `hf auth login`.")
         sys.exit(1)
 
     api = HfApi(token=token)
@@ -276,7 +276,10 @@ def push(token, workers=4):
 
 
 def pull(token):
-    token = token or os.environ.get("HF_TOKEN")
+    token = token or os.environ.get("HF_TOKEN") or HfFolder.get_token()
+    if not token:
+        print("ERROR: no HF token. Use --token, set HF_TOKEN, or run `hf auth login`.")
+        sys.exit(1)
     print(f"[download] {REPO_ID} -> ./")
     snapshot_download(
         repo_id=REPO_ID,
