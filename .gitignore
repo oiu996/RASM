@@ -22,3 +22,6 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.swp
+
+# local helper with secrets - never commit
+hf_sync.sh

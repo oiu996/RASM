@@ -147,7 +147,7 @@ NOT stored in git**. Only source code and documents are tracked here.
 | Asset | Location |
 |-------|----------|
 | Source code, scripts, docs, `fig/`, `datasets_small/`, `results_academic/`, `results_istd/`, `results_srd/`, `results_istd_on_srd/`, `results_srd_on_istd/`, `showcase/` | **this git repo** |
-| Full `datasets/` (ISTD+, SRD), model weights `log/`, runs | **HuggingFace Dataset [`oiuuu/rasm-data`](https://huggingface.co/datasets/oiuuu/rasm-data)** |
+| `datasets/` zip archives (ISTD_ABC.zip, SRD_ABC.zip), model weights `log/`, runs | **HuggingFace Dataset [`oiuuu/rasm-data`](https://huggingface.co/datasets/oiuuu/rasm-data)** |
 
 ### 1. Get the code (GitHub)
 
